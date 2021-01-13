@@ -1,0 +1,28 @@
+ul#MENU{
+	margin: 0;
+	padding: 0;
+}
+
+ul#MENU li{
+	display: inline;
+	list-style-type: none;
+}
+
+ul#MENU a:link, ul#MENU a:visited {
+	text-decoration: none;
+	background: red;
+	color: white;
+	padding: 10px;
+	margin-right: 2px;
+	font-size: 22px;
+	font-family: Garamond;
+	border: 2px solid #333;
+}
+
+ul#MENU a:hover, ul#MENU a:active {
+	background: hotpink;
+}
+
+a {
+	text-decoration: none;
+}
